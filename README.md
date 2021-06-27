@@ -1,5 +1,11 @@
 ### Hi there 👋
 
+### Find me
+
+- <https://github.com/mxsm>
+- <https://blog.ljbmxsm.com/>
+- <ljbmxsm@gmail.com>
+
 <div>
   <h3 align="center"> 
     Visitors Count<br>
@@ -8,10 +14,10 @@
 </div>
 
 <a href="https://blog.ljbmxsm.com">
-  <img align="left" height=170px src="https://github-readme-stats.vercel.app/api?username=mxsm&show_icons=true&count_private=true" />
+  <img align="left" height=170px src="https://github-readme-stats.vercel.app/api?username=mxsm&show_icons=true&count_private=true&theme=dark" />
 </a>
 <a href="https://blog.ljbmxsm.com">
-  <img align="left" height=170px src="https://github-readme-stats.vercel.app/api/top-langs/?username=mxsm&layout=compact&langs_count=10&hide=html,javascript,css,freemarker" />
+  <img align="left" height=170px src="https://github-readme-stats.vercel.app/api/top-langs/?username=mxsm&layout=compact&theme=dark&langs_count=10&hide=html,javascript,css,freemarker" />
 </a>
 
 <!--
