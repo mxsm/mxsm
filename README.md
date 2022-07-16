@@ -1,6 +1,4 @@
 ### Hi there 👋
-Here are some ideas to get you started:
-
 - 👋 Hi, I’m mxsm(蚂蚁背大象)
 - 🔭 I’m currently working on ...
 - 🌱 I’m currently learning Dleger and RocketMQ
