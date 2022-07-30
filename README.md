@@ -4,7 +4,6 @@
 - 🌱 I’m currently learning Dleger and RocketMQ
 - 👉 [Here](https://blog.ljbmxsm.com) is my personal website.
 - 📫 How to reach me: [163Email](ljbmxsm@163.com) or [Gmail](ljbmxsm@gmail.com)
-
 ## Technologies 💻
 <p align="center">
 <img title="Java" alt="Java" src="https://cdn.jsdelivr.net/gh/aaron-ai/ImageHosting@master/img/202203061259295.png" width="48" height="48" />
@@ -23,14 +22,6 @@
 <img title="CentOS" alt="" src="https://cdn.jsdelivr.net/gh/aaron-ai/ImageHosting@master/img/202203061641671.png" width="42" height="42" />
 <img title="Windows" alt="" src="https://cdn.jsdelivr.net/gh/aaron-ai/ImageHosting@master/img/202203061643723.png" width="48" height="48" />
 </p>
-
-### Overview
-![Metrics](https://metrics.lecoq.io/mxsm?template=classic&config.timezone=Asia%2FShanghai)
-<div align="center"> <img src="https://activity-graph.herokuapp.com/graph?username=mxsm&theme=xcode" /> </div>
-
-[![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=mxsm(蚂蚁背大象);Wish%20you%20can%20Day%20Day%20Up%20every%20day!)](https://git.io/typing-svg)
-
-
 <div>
   <h3 align="center"> 
     Visitors Count<br>
@@ -48,6 +39,13 @@
 <a href="https://blog.ljbmxsm.com">
   <img align="left" height=170px src="https://github-readme-stats.vercel.app/api/top-langs/?username=mxsm&layout=compact&theme=radical&langs_count=10&hide=html,javascript,css,freemarker" />
 </a>
+
+### Overview
+![Metrics](https://metrics.lecoq.io/mxsm?template=classic&config.timezone=Asia%2FShanghai)
+<div align="center"> <img src="https://activity-graph.herokuapp.com/graph?username=mxsm&theme=xcode" /> </div>
+
+[![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=mxsm(蚂蚁背大象);Wish%20you%20can%20Day%20Day%20Up%20every%20day!)](https://git.io/typing-svg)
+
 
 <!--
 **mxsm/mxsm** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
