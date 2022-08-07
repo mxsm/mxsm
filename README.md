@@ -3,7 +3,7 @@
 - 👨‍💻 A programmer living in Foshan.
 - 🌱 I’m currently learning Dleger and RocketMQ
 - 👉 [Here](https://blog.ljbmxsm.com) is my personal website.
-- 📫 How to reach me: [163Email](ljbmxsm@163.com) or [Gmail](ljbmxsm@gmail.com)
+- 📫 How to reach me: ljbmxsm@163.com or ljbmxsm@gmail.com
 ## Technologies 💻
 <p align="center">
 <img title="Java" alt="Java" src="https://cdn.jsdelivr.net/gh/aaron-ai/ImageHosting@master/img/202203061259295.png" width="48" height="48" />
