@@ -41,12 +41,14 @@
 </a>
 
 
-![Metrics](https://metrics.lecoq.io/mxsm?template=classic&config.timezone=Asia%2FShanghai)
-<div align="center"> <img src="https://activity-graph.herokuapp.com/graph?username=mxsm&theme=xcode" /> </div>
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=mxsm(蚂蚁背大象);Wish%20you%20can%20Day%20Day%20Up%20every%20day!)](https://git.io/typing-svg)
+
+
 
 
 <!--
+[![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=mxsm(蚂蚁背大象);Wish%20you%20can%20Day%20Day%20Up%20every%20day!)](https://git.io/typing-svg)
+![Metrics](https://metrics.lecoq.io/mxsm?template=classic&config.timezone=Asia%2FShanghai)
+<div align="center"> <img src="https://activity-graph.herokuapp.com/graph?username=mxsm&theme=xcode" /> </div>
 **mxsm/mxsm** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 -->
