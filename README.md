@@ -1,9 +1,9 @@
 ### Hi there 👋
 - 👋 Hi, I’m mxsm(蚂蚁背大象)
-- 👨‍💻 A programmer living in Foshan.
-- 🌱 I’m currently learning Dleger and RocketMQ
+- 👨‍💻 A programmer living in Foshan. Working in Guangzhou.
+- 🌱 I’m currently learning Dledger and RocketMQ
 - 👉 [Here](https://blog.ljbmxsm.com) is my personal website.
-- 📫 How to reach me: ljbmxsm@163.com or ljbmxsm@gmail.com
+- 📫 How to reach me: [ljbmxsm@163.com](ljbmxsm@163.com) or [ljbmxsm@gmail.com](ljbmxsm@gmail.com)
 ## Technologies 💻
 <p align="center">
 <img title="Java" alt="Java" src="https://cdn.jsdelivr.net/gh/aaron-ai/ImageHosting@master/img/202203061259295.png" width="48" height="48" />
