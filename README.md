@@ -1,3 +1,5 @@
+![](./profile-3d-contrib/profile-south-season-animate.svg)
+
 [![@mxsm's Holopin board](https://holopin.io/api/user/board?user=mxsm)](https://holopin.io/@mxsm)
 
 ### Hi there 👋
@@ -43,12 +45,6 @@
 <a href="https://blog.ljbmxsm.com">
   <img align="left" height=170px src="https://github-readme-stats.vercel.app/api/top-langs/?username=mxsm&layout=compact&theme=radical&langs_count=10&hide=html,javascript,css,freemarker" />
 </a>
-
-
-
-
-
-
 
 <!--
 [![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=mxsm(蚂蚁背大象);Wish%20you%20can%20Day%20Day%20Up%20every%20day!)](https://git.io/typing-svg)
