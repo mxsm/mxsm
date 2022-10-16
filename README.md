@@ -1,13 +1,12 @@
-![](./profile-3d-contrib/profile-south-season-animate.svg)
-
-[![@mxsm's Holopin board](https://holopin.io/api/user/board?user=mxsm)](https://holopin.io/@mxsm)
-
 ### Hi there 👋
 - 👋 Hi, I’m mxsm(蚂蚁背大象)
 - 👨‍💻 A programmer living in Foshan. Working in Guangzhou.
 - 🌱 I’m currently learning Dledger and RocketMQ
 - 👉 [Here](https://blog.ljbmxsm.com) is my personal website. Here is my [juejin Home page ](https://juejin.cn/user/1151943918492855)
 - 📫 How to reach me: ljbmxsm@163.com or ljbmxsm@gmail.com
+
+![](./profile-3d-contrib/profile-green-animate.svg)
+
 ## Technologies 💻
 <p align="center">
 <img title="Java" alt="Java" src="https://cdn.jsdelivr.net/gh/aaron-ai/ImageHosting@master/img/202203061259295.png" width="48" height="48" />
@@ -45,6 +44,8 @@
 <a href="https://blog.ljbmxsm.com">
   <img align="left" height=170px src="https://github-readme-stats.vercel.app/api/top-langs/?username=mxsm&layout=compact&theme=radical&langs_count=10&hide=html,javascript,css,freemarker" />
 </a>
+
+[![@mxsm's Holopin board](https://holopin.io/api/user/board?user=mxsm)](https://holopin.io/@mxsm)
 
 <!--
 [![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=mxsm(蚂蚁背大象);Wish%20you%20can%20Day%20Day%20Up%20every%20day!)](https://git.io/typing-svg)
