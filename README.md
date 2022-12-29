@@ -1,7 +1,8 @@
 ### Hi there 👋
 - 👋 Hi, I’m mxsm(蚂蚁背大象)
 - 👨‍💻 A Software Engineer living in Foshan. Working in Guangzhou.
-- 🌱 I’m currently learning Dledger and RocketMQ
+- 🌱 I’m currently focused on RocketMQ and DLedger.
+- 📚 I’m currently learning English.
 - 👉 [Here](https://blog.ljbmxsm.com) is my personal website. Here is my [juejin Home page ](https://juejin.cn/user/1151943918492855)
 - 📫 How to reach me: ljbmxsm@163.com or ljbmxsm@gmail.com
 
