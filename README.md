@@ -36,8 +36,7 @@
 [![Readme Card](https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/pin/?username=apache&repo=rocketmq&theme=monokai)](https://github.com/apache/rocketmq)
 [![Readme Card](https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/pin/?username=mxsm&repo=rain&theme=monokai)](https://github.com/mxsm/rain)
 [![Readme Card](https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/pin/?username=openmessaging&repo=dledger&theme=monokai)](https://github.com/openmessaging/dledger)
-[![Readme Card](https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/pin/?username=apache&repo=eventmesh&theme=monokai)]([https://github.com/mxsm/IM](https://github.com/apache/eventmesh))
-
+[![Readme Card](https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/pin/?username=apache&repo=eventmesh&theme=monokai)](https://github.com/apache/eventmesh)
 
 <a href="https://blog.ljbmxsm.com">
   <img align="left" height=170px src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=mxsm&show_icons=true&count_private=true&theme=radical" />
