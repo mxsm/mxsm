@@ -6,7 +6,17 @@
 - 👉 [Here](https://blog.ljbmxsm.com) is my personal website. Here is my [juejin Home page ](https://juejin.cn/user/1151943918492855)
 - 📫 How to reach me: ljbmxsm@163.com or ljbmxsm@gmail.com
 
+### Profile Views
+counting of visitors to this page in this section started from July 30, 2023
+
+<img src="https://count.getloli.com/get/@:mxsm?theme=gelbooru-h" alt=":name" />
+
+<a href="https://info.flagcounter.com/more/PfoQ"><img src="https://s11.flagcounter.com/map/PfoQ/size_l/txt_000000/border_CCCCCC/pageviews_1/viewers_0/flags_0/" alt="Flag Counter" border="0"></a>
+
 ![](./profile-3d-contrib/profile-green-animate.svg)
+
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=mxsm" width="auto"></img>
+
 
 ## Technologies 💻
 <p align="center">
@@ -32,6 +42,8 @@
     <img align="center" src="https://profile-counter.glitch.me/mxsm/count.svg" />
   </h3>
 </div>
+
+
 
 [![Readme Card](https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/pin/?username=apache&repo=rocketmq&theme=monokai)](https://github.com/apache/rocketmq)
 [![Readme Card](https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/pin/?username=mxsm&repo=rain&theme=monokai)](https://github.com/mxsm/rain)
