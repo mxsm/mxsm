@@ -11,8 +11,6 @@ counting of visitors to this page in this section started from July 30, 2023
 
 <img src="https://count.getloli.com/get/@:mxsm?theme=gelbooru-h" alt=":name" />
 
-<a href="https://info.flagcounter.com/PfoQ"><img src="https://s11.flagcounter.com/map/PfoQ/size_l/txt_000000/border_CCCCCC/pageviews_1/viewers_0/flags_0/" alt="Flag Counter" border="0"></a>
-
 ![](./profile-3d-contrib/profile-green-animate.svg)
 
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=mxsm" width="auto"></img>
