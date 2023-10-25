@@ -4,7 +4,7 @@
 - 🌱 I’m currently focused on [RocketMQ](https://github.com/apache/rocketmq),[EventMesh](https://github.com/apache/incubator-eventmesh) and [DLedger](https://github.com/openmessaging/dledger).
 - 📚 I’m currently learning English and Rust.
 - 👉 [Here](https://blog.ljbmxsm.com) is my personal website. Here is my [juejin Home page ](https://juejin.cn/user/1151943918492855)
-- 📫 How to reach me: ljbmxsm@163.com or ljbmxsm@gmail.com
+- 📫 How to reach me: mxsm@apache.org or ljbmxsm@163.com 
 
 ### Profile Views
 counting of visitors to this page in this section started from July 30, 2023
