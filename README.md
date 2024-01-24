@@ -6,6 +6,8 @@
 - 👉 [Here](https://blog.ljbmxsm.com) is my personal website. Here is my [juejin Home page ](https://juejin.cn/user/1151943918492855)
 - 📫 How to reach me: mxsm@apache.org or ljbmxsm@163.com 
 
+[![Readme Card](https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/pin/?username=mxsm&repo=rocketmq-rust&theme=monokai)](https://github.com/mxsm/rocketmq-rust)
+
 ### Profile Views
 counting of visitors to this page in this section started from July 30, 2023
 
