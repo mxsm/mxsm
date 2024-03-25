@@ -1,5 +1,5 @@
 ### Hi there 👋
-- 👋 Hi, I’m mxsm(蚂蚁背大象)
+- 👋 Hi, I’m mxsm(蚂蚁背大象)，Graduated from Hangzhou Dianzi University(HDU).
 - 👨‍💻 A Software Engineer living in Foshan. Working in Guangzhou.
 - 🌱 I’m currently focused on [RocketMQ](https://github.com/apache/rocketmq),[EventMesh](https://github.com/apache/incubator-eventmesh) and [DLedger](https://github.com/openmessaging/dledger).
 - 📚 I’m currently learning English and Rust.
