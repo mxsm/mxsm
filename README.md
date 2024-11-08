@@ -9,11 +9,13 @@
 ### Contributing projects
 
 [![Readme Card](https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/pin/?username=mxsm&repo=rocketmq-rust&theme=monokai)](https://github.com/mxsm/rocketmq-rust)
+[![Readme Card](https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/pin/?username=mxsm&repo=cheetah-string&theme=monokai)](https://github.com/mxsm/cheetah-string)
 [![Readme Card](https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/pin/?username=apache&repo=eventmesh&theme=monokai)](https://github.com/apache/eventmesh)
 [![Readme Card](https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/pin/?username=apache&repo=rocketmq&theme=monokai)](https://github.com/apache/rocketmq)
 [![Readme Card](https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/pin/?username=mxsm&repo=rain&theme=monokai)](https://github.com/mxsm/rain)
 [![Readme Card](https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/pin/?username=openmessaging&repo=dledger&theme=monokai)](https://github.com/openmessaging/dledger)
-[![Readme Card](https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/pin/?username=mxsm&repo=mxsm-website&theme=monokai)](https://github.com/mxsm/mxsm-website)
+<!-- [![Readme Card](https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/pin/?username=mxsm&repo=mxsm-website&theme=monokai)](https://github.com/mxsm/mxsm-website) -->
+
 
 ### Profile Views
 counting of visitors to this page in this section started from July 30, 2023
