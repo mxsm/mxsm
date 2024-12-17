@@ -1,10 +1,12 @@
 ### Hi there 👋
 - 👋 Hi, I’m mxsm(蚂蚁背大象)，Graduated from ***Hangzhou Dianzi University(HDU)***.
 - 👨‍💻 A Software Engineer living in Foshan. Working in Guangzhou. ***Good at JAVA, Rustaceans***
-- 🌱 I’m currently focused on [***Apache RocketMQ***](https://github.com/apache/rocketmq), [***Apache EventMesh***](https://github.com/apache/eventmesh), [***RocketMQ-Rust***](https://github.com/mxsm/rocketmq-rust) and [***DLedger***](https://github.com/openmessaging/dledger).
+- 🌱 I’m currently focused on [***RocketMQ Rust***](https://github.com/mxsm/rocketmq-rust), [***Apache RocketMQ***](https://github.com/apache/rocketmq), [***Apache EventMesh***](https://github.com/apache/eventmesh), [***RocketMQ-Rust***](https://github.com/mxsm/rocketmq-rust) and [***DLedger***](https://github.com/openmessaging/dledger).
 - 📚 I’m currently learning English and Rust.
+- 👷 I am looking for a partner developer on [***RocketMQ Rust***](https://github.com/mxsm/rocketmq-rust)
 - 👉 [Here](https://blog.ljbmxsm.com) is my personal website. Here is my [juejin Home page ](https://juejin.cn/user/1151943918492855)
-- 📫 How to reach me: mxsm@apache.org or ljbmxsm@163.com 
+- 📫 How to reach me: mxsm@apache.org or ljbmxsm@163.com
+- 🔊 If there is a suitable job opportunity, please feel free to send an email to mxsm@apache.org. I will respond at the earliest convenience after receiving your message 
 
 ### Contributing projects
 
