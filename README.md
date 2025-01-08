@@ -8,7 +8,7 @@
 - 📫 How to reach me: mxsm@apache.org or ljbmxsm@163.com
 - 🔊 If there is a suitable job opportunity, please feel free to send an email to mxsm@apache.org. I will respond at the earliest convenience after receiving your message 
 
-
+### Technologies 💻
 <p align="center">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/rust/rust-original.svg" width="48" height="48"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original-wordmark.svg" width="48" height="48"/>
@@ -47,7 +47,6 @@ counting of visitors to this page in this section started from July 30, 2023
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=mxsm" width="auto"></img>
 
 
-## Technologies 💻
 <div>
   <h3 align="center"> 
     Visitors Count<br>
