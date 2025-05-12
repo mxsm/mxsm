@@ -1,5 +1,5 @@
 ### Hi there 👋
-- 👋 Hi, I’m mxsm(蚂蚁背大象)，Graduated from ***Hangzhou Dianzi University(HDU)***.
+- 👋 Hi, I’m mxsm，Graduated from ***Hangzhou Dianzi University(HDU)***.
 - 👨‍💻 A Software Engineer living in Foshan. Working in Guangzhou. ***Good at JAVA, Rustaceans***
 - 🌱 I’m currently focused on [***RocketMQ Rust***](https://github.com/mxsm/rocketmq-rust), [***Apache RocketMQ***](https://github.com/apache/rocketmq), [***Apache EventMesh***](https://github.com/apache/eventmesh), [***RocketMQ-Rust***](https://github.com/mxsm/rocketmq-rust) and [***DLedger***](https://github.com/openmessaging/dledger).
 - 📚 I’m currently learning English and Rust.
