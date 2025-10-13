@@ -46,14 +46,14 @@ counting of visitors to this page in this section started from July 30, 2023
 
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=mxsm" width="auto"></img>
 
-
+<!--
 <div>
   <h3 align="center"> 
     Visitors Count<br>
     <img align="center" src="https://profile-counter.glitch.me/mxsm/count.svg" />
   </h3>
 </div>
-
+-->
 <a href="https://blog.ljbmxsm.com">
   <img align="left" height=170px src="https://github-readme-stats.vercel.app/api?username=mxsm&show_icons=true&count_private=true&theme=radical" />
 </a>
