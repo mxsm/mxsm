@@ -6,7 +6,7 @@
 - 👷 I am looking for a partner developer on [***RocketMQ Rust***](https://github.com/mxsm/rocketmq-rust)
 - 👉 [Here](https://blog.ljbmxsm.com) is my personal website. Here is my [juejin Home page ](https://juejin.cn/user/1151943918492855)
 - 📫 How to reach me: mxsm@apache.org or ljbmxsm@163.com
-- 🔊 If there is a suitable job opportunity, please feel free to send an email to mxsm@apache.org. I will respond at the earliest convenience after receiving your message 
+- 🔊 **Recently, I have been looking for jobs related to Java and Rust，If there is a suitable job opportunity, please feel free to send an email to mxsm@apache.org. I will respond at the earliest convenience after receiving your message** 
 
 ### Technologies 💻
 <p align="center">
