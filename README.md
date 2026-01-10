@@ -9,21 +9,25 @@
 - 🔊 **Recently, I have been looking for jobs related to Java and Rust，If there is a suitable job opportunity, please feel free to send an email to mxsm@apache.org. I will respond at the earliest convenience after receiving your message** 
 
 ### Technologies 💻
-<p align="center">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/rust/rust-original.svg" width="48" height="48"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original-wordmark.svg" width="48" height="48"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" width="48" height="48"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original-wordmark.svg" width="48" height="48"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jetbrains/jetbrains-original.svg" width="48" height="48"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/intellij/intellij-original.svg" width="48" height="48"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/grpc/grpc-plain.svg" width="48" height="48"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/spring/spring-original.svg" width="48" height="48"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original-wordmark.svg" width="48" height="48"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/redis/redis-original.svg" width="48" height="48"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original-wordmark.svg" width="48" height="48"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/prometheus/prometheus-original.svg" width="48" height="48"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/grafana/grafana-original.svg" width="48" height="48"/>
-</p>
+<div style="display: flex; align-items: flex-start;">
+    <img src="https://techstack-generator.vercel.app/github-icon.svg" alt="icon" width="80" height="80"/>
+    <img src="https://techstack-generator.vercel.app/kubernetes-icon.svg" alt="icon" width="80" height="80"/>
+    <img src="https://techstack-generator.vercel.app/docker-icon.svg" alt="icon" width="80" height="80"/>
+    <img src="https://techstack-generator.vercel.app/java-icon.svg" alt="icon" width="80" height="80"/>
+    <img src="https://techstack-generator.vercel.app/mysql-icon.svg" alt="icon" width="80" height="80"/>
+    <img src="https://techstack-generator.vercel.app/nginx-icon.svg" alt="icon" width="80" height="80"/>
+    <img src="https://techstack-generator.vercel.app/restapi-icon.svg" alt="icon" width="80" height="80"/>
+    <img src="https://skillicons.dev/icons?i=git" width="80" height="80" />
+    <img src="https://skillicons.dev/icons?i=linux" width="80" height="80" />
+    <img src="https://skillicons.dev/icons?i=maven" width="80" height="80" />
+    <img src="https://skillicons.dev/icons?i=prometheus" width="80" height="80" />
+    <img src="https://skillicons.dev/icons?i=redis" width="80" height="80" />
+    <img src="https://skillicons.dev/icons?i=rust" width="80" height="80" />
+    <img src="https://skillicons.dev/icons?i=spring" width="80" height="80" />
+    <img src="https://skillicons.dev/icons?i=mongodb" width="80" height="80" />
+    <img src="https://skillicons.dev/icons?i=md" width="80" height="80" />
+    <img src="https://skillicons.dev/icons?i=kafka" width="80" height="80" />
+</div>
 
 <!--
 ### Contributing projects
