@@ -27,6 +27,10 @@
     <img src="https://skillicons.dev/icons?i=mongodb" width="80" height="80" />
     <img src="https://skillicons.dev/icons?i=md" width="80" height="80" />
     <img src="https://skillicons.dev/icons?i=kafka" width="80" height="80" />
+    <img src="https://skillicons.dev/icons?i=ubuntu" width="80" height="80" />
+    <img src="https://skillicons.dev/icons?i=windows" width="80" height="80" />
+    <img src="https://skillicons.dev/icons?i=rocket" width="80" height="80" />
+    <img src="https://skillicons.dev/icons?i=githubactions" width="80" height="80" />
 </div>
 
 <!--
