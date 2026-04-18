@@ -9,29 +9,35 @@
 - 🔊 **Recently, I have been looking for jobs related to Java and Rust，If there is a suitable job opportunity, please feel free to send an email to mxsm@apache.org. I will respond at the earliest convenience after receiving your message** | 最近，我一直在寻找与 Java 和 Rust 相关的工作。如果有合适的工作机会，请随时发送邮件到 mxsm@apache.org或者微信号:375808041联系。收到您的消息后，我会尽快回复
 
 ### Technologies 💻
-<div style="display: flex; align-items: flex-start;">
-    <img src="https://techstack-generator.vercel.app/github-icon.svg" alt="icon" width="80" height="80"/>
-    <img src="https://techstack-generator.vercel.app/kubernetes-icon.svg" alt="icon" width="80" height="80"/>
-    <img src="https://techstack-generator.vercel.app/docker-icon.svg" alt="icon" width="80" height="80"/>
-    <img src="https://techstack-generator.vercel.app/java-icon.svg" alt="icon" width="80" height="80"/>
-    <img src="https://techstack-generator.vercel.app/mysql-icon.svg" alt="icon" width="80" height="80"/>
-    <img src="https://techstack-generator.vercel.app/nginx-icon.svg" alt="icon" width="80" height="80"/>
-    <img src="https://techstack-generator.vercel.app/restapi-icon.svg" alt="icon" width="80" height="80"/>
-    <img src="https://skillicons.dev/icons?i=git" width="80" height="80" />
-    <img src="https://skillicons.dev/icons?i=linux" width="80" height="80" />
-    <img src="https://skillicons.dev/icons?i=maven" width="80" height="80" />
-    <img src="https://skillicons.dev/icons?i=prometheus" width="80" height="80" />
-    <img src="https://skillicons.dev/icons?i=redis" width="80" height="80" />
-    <img src="https://skillicons.dev/icons?i=rust" width="80" height="80" />
-    <img src="https://skillicons.dev/icons?i=spring" width="80" height="80" />
-    <img src="https://skillicons.dev/icons?i=mongodb" width="80" height="80" />
-    <img src="https://skillicons.dev/icons?i=md" width="80" height="80" />
-    <img src="https://skillicons.dev/icons?i=kafka" width="80" height="80" />
-    <img src="https://skillicons.dev/icons?i=ubuntu" width="80" height="80" />
-    <img src="https://skillicons.dev/icons?i=windows" width="80" height="80" />
-    <img src="https://skillicons.dev/icons?i=rocket" width="80" height="80" />
-    <img src="https://skillicons.dev/icons?i=githubactions" width="80" height="80" />
-</div>
+<table>
+  <tr>
+    <td><img src="https://techstack-generator.vercel.app/github-icon.svg" alt="GitHub" width="65" height="65"/></td>
+    <td><img src="https://techstack-generator.vercel.app/kubernetes-icon.svg" alt="Kubernetes" width="65" height="65"/></td>
+    <td><img src="https://techstack-generator.vercel.app/docker-icon.svg" alt="Docker" width="65" height="65"/></td>
+    <td><img src="https://techstack-generator.vercel.app/java-icon.svg" alt="Java" width="65" height="65"/></td>
+    <td><img src="https://techstack-generator.vercel.app/mysql-icon.svg" alt="MySQL" width="65" height="65"/></td>
+    <td><img src="https://techstack-generator.vercel.app/nginx-icon.svg" alt="Nginx" width="65" height="65"/></td>
+    <td><img src="https://techstack-generator.vercel.app/restapi-icon.svg" alt="REST API" width="65" height="65"/></td>
+  </tr>
+  <tr>
+    <td><img src="https://skillicons.dev/icons?i=git" width="65" height="65" alt="Git"/></td>
+    <td><img src="https://skillicons.dev/icons?i=linux" width="65" height="65" alt="Linux"/></td>
+    <td><img src="https://skillicons.dev/icons?i=maven" width="65" height="65" alt="Maven"/></td>
+    <td><img src="https://skillicons.dev/icons?i=prometheus" width="65" height="65" alt="Prometheus"/></td>
+    <td><img src="https://skillicons.dev/icons?i=redis" width="65" height="65" alt="Redis"/></td>
+    <td><img src="https://skillicons.dev/icons?i=rust" width="65" height="65" alt="Rust"/></td>
+    <td><img src="https://skillicons.dev/icons?i=spring" width="65" height="65" alt="Spring"/></td>
+  </tr>
+  <tr>
+    <td><img src="https://skillicons.dev/icons?i=mongodb" width="65" height="65" alt="MongoDB"/></td>
+    <td><img src="https://skillicons.dev/icons?i=md" width="65" height="65" alt="Markdown"/></td>
+    <td><img src="https://skillicons.dev/icons?i=kafka" width="65" height="65" alt="Kafka"/></td>
+    <td><img src="https://skillicons.dev/icons?i=ubuntu" width="65" height="65" alt="Ubuntu"/></td>
+    <td><img src="https://skillicons.dev/icons?i=windows" width="65" height="65" alt="Windows"/></td>
+    <td><img src="https://skillicons.dev/icons?i=rocket" width="65" height="65" alt="Rocket"/></td>
+    <td><img src="https://skillicons.dev/icons?i=githubactions" width="65" height="65" alt="GitHub Actions"/></td>
+  </tr>
+</table>
 
 <!--
 ### Contributing projects
