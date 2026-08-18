@@ -60,10 +60,10 @@
 counting of visitors to this page in this section started from July 30, 2023
 
 <img src="https://count.getloli.com/get/@:mxsm?theme=gelbooru-h" alt=":name" />
-
+<!--
 <a href="https://blog.ljbmxsm.com">
   <img align="left" height=170px src="https://github-readme-stats-mxsm.vercel.app/api?username=mxsm&show_icons=true&count_private=true&theme=radical" />
-</a>
+</a>   -->
 <a href="https://blog.ljbmxsm.com">
   <img align="left" height=170px src="https://github-readme-stats-mxsm.vercel.app/api/top-langs/?username=mxsm&layout=compact&theme=radical&langs_count=10&hide=html,javascript,css,freemarker" />
 </a>
