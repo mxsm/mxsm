@@ -1,24 +1,48 @@
-name: GitHub-Profile-3D-Contrib
+name: Update profile cards
 
 on:
-  schedule: # 09:00 BST == 1:00 UTC
+  schedule:
     - cron: "0 1 * * *"
   workflow_dispatch:
 
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-cards-${{ github.ref }}
+  cancel-in-progress: false
+
 jobs:
-  build:
+  update:
     runs-on: ubuntu-latest
-    name: generate-github-profile-3d-contrib
+    timeout-minutes: 15
     steps:
-      - uses: actions/checkout@v3
-      - uses: yoshi389111/github-profile-3d-contrib@0.7.1
+      - uses: actions/checkout@v7
+        id: checkout
+
+      - name: Refresh languages on the first successful run of the month
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          USERNAME: ${{ github.repository_owner }}
-      - name: Commit & Push
+          GH_TOKEN: ${{ github.token }}
         run: |
-          git config user.name mxsm
-          git config user.email ljbmxsm@gmail.com
-          git add -A .
-          git commit -m "generated"
-          git push
+          python3 -B scripts/update_profile.py languages
+          git add -- resource/generated/languages.{json,svg}
+
+      - name: Refresh weekly and daily contributions
+        if: ${{ !cancelled() && steps.checkout.outcome == 'success' }}
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          python3 -B scripts/update_profile.py contributions
+          git add -- resource/generated/contributions.{json,svg}
+
+      - name: Publish successfully generated cards
+        if: ${{ !cancelled() && steps.checkout.outcome == 'success' && github.ref_type == 'branch' }}
+        run: |
+          if git diff --cached --quiet; then exit 0; fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m "Update profile card snapshots"
+          if ! git push origin "HEAD:$GITHUB_REF"; then
+            git pull --rebase origin "$GITHUB_REF_NAME"
+            git push origin "HEAD:$GITHUB_REF"
+          fi

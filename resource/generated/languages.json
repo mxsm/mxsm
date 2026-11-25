@@ -1,0 +1,56 @@
+{
+  "owner": "mxsm",
+  "updated_at": "2026-11-25T16:19:22+00:00",
+  "languages": [
+    {
+      "name": "Rust",
+      "bytes": 61035142,
+      "color": "#dea584"
+    },
+    {
+      "name": "TypeScript",
+      "bytes": 4679127,
+      "color": "#3178c6"
+    },
+    {
+      "name": "Python",
+      "bytes": 1836186,
+      "color": "#3572A5"
+    },
+    {
+      "name": "PowerShell",
+      "bytes": 1340071,
+      "color": "#012456"
+    },
+    {
+      "name": "Java",
+      "bytes": 688388,
+      "color": "#b07219"
+    },
+    {
+      "name": "PLpgSQL",
+      "bytes": 122714,
+      "color": "#336790"
+    },
+    {
+      "name": "Stylus",
+      "bytes": 116519,
+      "color": "#ff6347"
+    },
+    {
+      "name": "SCSS",
+      "bytes": 99985,
+      "color": "#c6538c"
+    },
+    {
+      "name": "Shell",
+      "bytes": 54827,
+      "color": "#89e051"
+    },
+    {
+      "name": "Go Template",
+      "bytes": 26147,
+      "color": "#00ADD8"
+    }
+  ]
+}

@@ -52,20 +52,20 @@ I’m a Java and Rust developer living in Foshan and working in Guangzhou. I gra
 
 <table>
   <tr>
-    <td width="42%" align="center" valign="middle">
-      <a href="https://blog.ljbmxsm.com">
-        <img src="https://github-readme-stats-mxsm.vercel.app/api/top-langs/?username=mxsm&amp;layout=compact&amp;theme=radical&amp;langs_count=10&amp;hide=html,javascript,css,freemarker" alt="Most used languages" width="100%" />
+    <td width="55%" align="center" valign="middle">
+      <a href="./resource/generated/languages.svg">
+        <img src="./resource/generated/languages.svg" alt="Most used languages by share of code, updated monthly" width="100%" />
       </a>
     </td>
-    <td width="58%" align="center" valign="middle">
+    <td width="45%" align="center" valign="middle">
       <strong>Profile Views</strong><br />
-      <img src="https://count.getloli.com/get/@:mxsm?theme=gelbooru-h" alt="Total profile views" /><br />
+      <img src="https://count.getloli.com/get/@:mxsm?theme=gelbooru-h" alt="Total profile views" width="100%" /><br />
       <sub>Since July 30, 2023</sub>
     </td>
   </tr>
 </table>
 
-![mxsm’s GitHub contributions in 3D](./profile-3d-contrib/profile-green-animate.svg)
+[![Weekly contributions on the Pearl River skyline and seven days of contributions on Foshan lion dance poles](./resource/generated/contributions.svg)](./resource/generated/contributions.svg)
 
 <!--
 <div>

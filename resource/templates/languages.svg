@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="3072" height="2048" viewBox="0 0 960 640" role="img" aria-labelledby="title description">
+  <title id="title">Most Used Languages · $owner</title>
+  <desc id="description">$description</desc>
+  <defs>
+    <linearGradient id="flap" x2="0" y2="1">
+      <stop stop-color="#283c64"/><stop offset=".48" stop-color="#152747"/>
+      <stop offset=".5" stop-color="#0c1732"/><stop offset="1" stop-color="#253757"/>
+    </linearGradient>
+    <linearGradient id="gold" x2="0" y2="1">
+      <stop stop-color="#ffedab"/><stop offset=".42" stop-color="#ffbd4b"/>
+      <stop offset=".62" stop-color="#aa5923"/><stop offset="1" stop-color="#f8b55c"/>
+    </linearGradient>
+    <clipPath id="strip"><rect x="99" y="181" width="752" height="20" rx="9"/></clipPath>
+    <g id="pair">
+      <rect x="0" y="2" width="375" height="51" rx="8" fill="#040c20"/>
+      <rect x="0" width="223" height="50" rx="8" fill="url(#flap)" stroke="#ca9767" stroke-width="1.3"/>
+      <rect x="228" width="147" height="50" rx="8" fill="url(#flap)" stroke="#ca9767" stroke-width="1.3"/>
+      <path d="M4 25h215m13 0h139" fill="none" stroke="#030d23" stroke-width="1.5"/>
+      <path d="M5 3h210m21 0h131" fill="none" stroke="#ffd78a" stroke-opacity=".48"/>
+      <path d="M278 2v46m48-46v46" fill="none" stroke="#8091ae" stroke-opacity=".17"/>
+      <rect x="1" y="19" width="3" height="12" rx="1" fill="url(#gold)"/>
+      <rect x="219" y="19" width="3" height="12" rx="1" fill="url(#gold)"/>
+      <rect x="371" y="19" width="3" height="12" rx="1" fill="url(#gold)"/>
+    </g>
+  </defs>
+  <image width="960" height="640" xlink:href="$background"/>
+  <g font-family="Trebuchet MS, DejaVu Sans, Arial, sans-serif" font-weight="bold" font-style="italic" fill="#fff2d6">
+    <text x="101" y="153" font-size="53" letter-spacing="-2" stroke="#102141" stroke-width="2" paint-order="stroke">Most Used <tspan fill="#ffc13b">Languages</tspan></text>
+    <rect x="95" y="177" width="760" height="28" rx="13" fill="#111a2d" stroke="url(#gold)" stroke-width="2.3"/>
+    <g clip-path="url(#strip)">$segments</g>
+    $rows
+    <path d="M90 526h770" fill="none" stroke="url(#gold)" stroke-width="1.6"/>
+    <g font-size="21">
+      <text x="101" y="553">By code size</text>
+      <text x="848" y="553" text-anchor="end">Updated $updated</text>
+    </g>
+  </g>
+</svg>
