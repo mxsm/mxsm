@@ -2,22 +2,11 @@
 - 👋 Hi, I’m mxsm，Graduated from ***Hangzhou Dianzi University(HDU)***.
 - 👨‍💻 A Software Engineer living in Foshan. Working in Guangzhou. ***Good at JAVA, Rustaceans***
 - 🌱 I’m currently focused on [***RocketMQ Rust***](https://github.com/mxsm/rocketmq-rust), [***Apache RocketMQ***](https://github.com/apache/rocketmq), [***Apache EventMesh***](https://github.com/apache/eventmesh) and [***DLedger***](https://github.com/openmessaging/dledger).
-- 📚 I’m currently learning English and Rust(Premium), GO(Just started).
 - 👷 I am looking for a partner developer on [***RocketMQ Rust***](https://github.com/mxsm/rocketmq-rust)
-- 👉 [Here](https://blog.ljbmxsm.com) is my personal website. Here is my [juejin Home page ](https://juejin.cn/user/1151943918492855)
-- 📫 How to reach me: mxsm@apache.org or ljbmxsm@163.com
-- 🔊 **Recently, I have been looking for jobs related to Java or Rust，If there is a suitable job opportunity, please feel free to send an email to mxsm@apache.org or webchat:375808041. I will respond at the earliest convenience after receiving your message** 
+- 👉 [Here](https://blog.ljbmxsm.com) is my personal website.
+- 📫 How to reach me: mxsm@apache.org
 ### Technologies 💻
 <table>
-  <tr>
-    <td><img src="https://techstack-generator.vercel.app/github-icon.svg" alt="GitHub" width="65" height="65"/></td>
-    <td><img src="https://techstack-generator.vercel.app/kubernetes-icon.svg" alt="Kubernetes" width="65" height="65"/></td>
-    <td><img src="https://techstack-generator.vercel.app/docker-icon.svg" alt="Docker" width="65" height="65"/></td>
-    <td><img src="https://techstack-generator.vercel.app/java-icon.svg" alt="Java" width="65" height="65"/></td>
-    <td><img src="https://techstack-generator.vercel.app/mysql-icon.svg" alt="MySQL" width="65" height="65"/></td>
-    <td><img src="https://techstack-generator.vercel.app/nginx-icon.svg" alt="Nginx" width="65" height="65"/></td>
-    <td><img src="https://techstack-generator.vercel.app/restapi-icon.svg" alt="REST API" width="65" height="65"/></td>
-  </tr>
   <tr>
     <td><img src="https://skillicons.dev/icons?i=git" width="65" height="65" alt="Git"/></td>
     <td><img src="https://skillicons.dev/icons?i=linux" width="65" height="65" alt="Linux"/></td>
