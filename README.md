@@ -1,10 +1,12 @@
-### Hi there 👋
-- 👋 Hi, I’m mxsm，Graduated from ***Hangzhou Dianzi University(HDU)***.
-- 👨‍💻 A Software Engineer living in Foshan. Working in Guangzhou. ***Good at JAVA, Rustaceans***
-- 🌱 I’m currently focused on [***RocketMQ Rust***](https://github.com/mxsm/rocketmq-rust), [***Apache RocketMQ***](https://github.com/apache/rocketmq), [***Apache EventMesh***](https://github.com/apache/eventmesh) and [***DLedger***](https://github.com/openmessaging/dledger).
-- 👷 I am looking for a partner developer on [***RocketMQ Rust***](https://github.com/mxsm/rocketmq-rust)
-- 👉 [Here](https://blog.ljbmxsm.com) is my personal website.
-- 📫 How to reach me: mxsm@apache.org
+![Hi, I’m mxsm! A RocketMQ Rust rocket flies past Canton Tower in Guangzhou.](./resource/mxsm-readme-canton-tower.png)
+
+I’m a Java and Rust developer living in Foshan and working in Guangzhou. I graduated from Hangzhou Dianzi University (HDU).
+
+- 🌱 I work on [RocketMQ Rust](https://github.com/mxsm/rocketmq-rust), [Apache RocketMQ](https://github.com/apache/rocketmq), [Apache EventMesh](https://github.com/apache/eventmesh), and [DLedger](https://github.com/openmessaging/dledger).
+- 🤝 If you’d like to work on RocketMQ Rust together, email me at [mxsm@apache.org](mailto:mxsm@apache.org).
+- 👉 [My personal website](https://blog.ljbmxsm.com)
+
+<!--
 ### Technologies 💻
 <table>
   <tr>
@@ -26,6 +28,7 @@
     <td><img src="https://skillicons.dev/icons?i=githubactions" width="65" height="65" alt="GitHub Actions"/></td>
   </tr>
 </table>
+-->
 
 <!--
 ### Contributing projects
@@ -33,34 +36,36 @@
 
 [![Readme Card](https://github-readme-stats-mxsm.vercel.app/api/pin/?username=mxsm&repo=rocketmq-rust&theme=monokai)](https://github.com/mxsm/rocketmq-rust)
 [![Readme Card](https://github-readme-stats-mxsm.vercel.app/api/pin/?username=mxsm&repo=cheetah-string&theme=monokai)](https://github.com/mxsm/cheetah-string)
-<!--[![Readme Card](https://github-readme-stats-mxsm.vercel.app/api/pin/?username=apache&repo=eventmesh&theme=monokai)](https://github.com/apache/eventmesh)
+[![Readme Card](https://github-readme-stats-mxsm.vercel.app/api/pin/?username=apache&repo=eventmesh&theme=monokai)](https://github.com/apache/eventmesh)
 [![Readme Card](https://github-readme-stats-mxsm.vercel.app/api/pin/?username=openmessaging&repo=dledger&theme=monokai)](https://github.com/openmessaging/dledger)
 [![Readme Card](https://github-readme-stats-mxsm.vercel.app/api/pin/?username=apache&repo=rocketmq&theme=monokai)](https://github.com/apache/rocketmq)
 [![Readme Card](https://github-readme-stats-mxsm.vercel.app/api/pin/?username=mxsm&repo=rain&theme=monokai)](https://github.com/mxsm/rain)
 -->
 
-
-
-
 <!-- [![Readme Card](https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/pin/?username=mxsm&repo=mxsm-website&theme=monokai)](https://github.com/mxsm/mxsm-website) -->
 
-
-### Profile Views
-counting of visitors to this page in this section started from July 30, 2023
-
-<img src="https://count.getloli.com/get/@:mxsm?theme=gelbooru-h" alt=":name" />
 <!--
 <a href="https://blog.ljbmxsm.com">
   <img align="left" height=170px src="https://github-readme-stats-mxsm.vercel.app/api?username=mxsm&show_icons=true&count_private=true&theme=radical" />
-</a>   -->
-<a href="https://blog.ljbmxsm.com">
-  <img align="left" height=170px src="https://github-readme-stats-mxsm.vercel.app/api/top-langs/?username=mxsm&layout=compact&theme=radical&langs_count=10&hide=html,javascript,css,freemarker" />
 </a>
+-->
 
-![](./profile-3d-contrib/profile-green-animate.svg)
+<table>
+  <tr>
+    <td width="42%" align="center" valign="middle">
+      <a href="https://blog.ljbmxsm.com">
+        <img src="https://github-readme-stats-mxsm.vercel.app/api/top-langs/?username=mxsm&amp;layout=compact&amp;theme=radical&amp;langs_count=10&amp;hide=html,javascript,css,freemarker" alt="Most used languages" width="100%" />
+      </a>
+    </td>
+    <td width="58%" align="center" valign="middle">
+      <strong>Profile Views</strong><br />
+      <img src="https://count.getloli.com/get/@:mxsm?theme=gelbooru-h" alt="Total profile views" /><br />
+      <sub>Since July 30, 2023</sub>
+    </td>
+  </tr>
+</table>
 
-
-
+![mxsm’s GitHub contributions in 3D](./profile-3d-contrib/profile-green-animate.svg)
 
 <!--
 <div>
