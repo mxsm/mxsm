@@ -2,6 +2,7 @@
 
 import json
 import re
+from functools import lru_cache
 from html.parser import HTMLParser
 from urllib.error import URLError
 from urllib.parse import quote
@@ -22,20 +23,39 @@ class CounterImage(HTMLParser):
                 self.url = image.get("src")
 
 
-def displayed_total(owner):
-    # An uncached request for this image can itself register a view at the counter.
+def counter_image_url(owner, page):
     profile = CounterImage(owner)
-    with urlopen(f"https://github.com/{quote(owner, safe='')}", timeout=30) as response:
+    with urlopen(page, timeout=10) as response:
         profile.feed(response.read().decode("utf-8"))
     if not profile.url or not profile.url.startswith("https://camo.githubusercontent.com/"):
         raise ValueError("Could not locate the original counter on the GitHub profile")
-    with urlopen(profile.url, timeout=30) as response:
+    return profile.url
+
+
+def read_counter_image(url):
+    with urlopen(url, timeout=10) as response:
         image = ElementTree.parse(response)
     href = "{http://www.w3.org/1999/xlink}href"
     digits = [use.get(href, "") for use in image.findall(".//{http://www.w3.org/2000/svg}use")]
     if not digits or any(not re.fullmatch(r"#[0-9]", digit) for digit in digits):
         raise ValueError("The displayed counter did not contain a valid digit sequence")
     return int("".join(digit[1] for digit in digits))
+
+
+def displayed_total(owner):
+    page = f"https://github.com/{quote(owner, safe='')}"
+    return read_counter_image(counter_image_url(owner, page))
+
+
+@lru_cache(maxsize=1)
+def original_counter_image():
+    # Resolve the counter from the published README before the live card replaced it.
+    # Only its URL is cached. The image itself records a new hit on each fetch.
+    page = Request(
+        "https://api.github.com/repos/mxsm/mxsm/readme?ref=b8248ab3a3956e8445927428046c9f5e1da1eec9",
+        headers={"Accept": "application/vnd.github.html+json", "User-Agent": "mxsm-profile-views"},
+    )
+    return counter_image_url("mxsm", page)
 
 
 def series_total(owner):
