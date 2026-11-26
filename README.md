@@ -58,9 +58,10 @@ I’m a Java and Rust developer living in Foshan and working in Guangzhou. I gra
       </a>
     </td>
     <td width="45%" align="center" valign="middle">
-      <strong>Profile Views</strong><br />
-      <img src="https://count.getloli.com/get/@:mxsm?theme=gelbooru-h" alt="Total profile views" width="100%" /><br />
-      <sub>Since July 30, 2023</sub>
+      <!-- The original counter still records image requests. The lion card displays its daily total. -->
+      <a href="./resource/generated/profile-views.svg">
+        <img src="./resource/generated/profile-views.svg" alt="Profile views since July 30, 2023, displayed by Foshan lions on drums and updated daily" width="99%" /><img src="https://count.getloli.com/get/@:mxsm?theme=gelbooru-h" alt="" width="1" height="1" />
+      </a>
     </td>
   </tr>
 </table>

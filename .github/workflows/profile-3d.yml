@@ -35,6 +35,12 @@ jobs:
           python3 -B scripts/update_profile.py contributions
           git add -- resource/generated/contributions.{json,svg}
 
+      - name: Refresh the Foshan lion view counter
+        if: ${{ !cancelled() && steps.checkout.outcome == 'success' }}
+        run: |
+          python3 -B scripts/update_profile.py profile-views
+          git add -- resource/generated/profile-views.{json,svg}
+
       - name: Publish successfully generated cards
         if: ${{ !cancelled() && steps.checkout.outcome == 'success' && github.ref_type == 'branch' }}
         run: |
