@@ -6,6 +6,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 from tempfile import TemporaryDirectory
 from unittest.mock import patch
+from urllib.error import HTTPError
 from urllib.parse import unquote, urlsplit
 from xml.etree import ElementTree as ET
 
@@ -17,6 +18,43 @@ import view_counter
 
 class ProfileViewsTest(unittest.TestCase):
     now = datetime(2026, 11, 25, tzinfo=timezone.utc)
+    legacy = "https://count.getloli.com/get/@:mxsm?theme=gelbooru-h"
+    camo = "https://camo.githubusercontent.com/" + "a" * 64 + "/" + legacy.encode().hex()
+
+    def profile_html(self):
+        return io.BytesIO(f'''<article class="markdown-body">
+            <img src="https://github.com/mxsm/mxsm/raw/main/resource/generated/profile-views.svg" />
+            <img data-canonical-src="{self.legacy}" src="{self.camo}" width="1" height="1" alt="" />
+            <img data-canonical-src="{self.legacy.replace(':mxsm', ':other')}" src="{self.camo}-other" />
+            </article>'''.encode())
+
+    def counter_svg(self, refs):
+        uses = "".join(f'<use xlink:href="{ref}" x="{index * 60}" />' for index, ref in enumerate(refs))
+        return io.BytesIO(f'''<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <defs><image id="0" /><image id="3" /><image id="4" /></defs><g>{uses}</g></svg>'''.encode())
+
+    def test_blocked_series_reads_profile_counter_digits_in_order(self):
+        forbidden = HTTPError(self.legacy, 403, "Forbidden", {}, io.BytesIO())
+        self.addCleanup(forbidden.close)
+        svg = self.counter_svg(["#0", "#0", "#3", "#0", "#0", "#3", "#4"])
+        with patch.object(view_counter, "urlopen", side_effect=[forbidden, self.profile_html(), svg]) as fetch:
+            snapshot = view_counter.fetch_views("mxsm", self.now)
+        self.assertEqual((snapshot["count"], snapshot["source"]), (30034, "profile-counter-image"))
+        self.assertEqual([call.args[0] for call in fetch.call_args_list[1:]], ["https://github.com/mxsm", self.camo])
+
+    def test_bad_displayed_digit_preserves_published_counter(self):
+        with TemporaryDirectory() as folder:
+            output = Path(folder)
+            previous = {"owner": "mxsm", "count": 30003, "updated_at": self.now.isoformat()}
+            update_profile.publish(output, "profile-views", previous, render_views.render_views(30003))
+            files = {p: p.read_bytes() for p in output.iterdir()}
+            forbidden = HTTPError(self.legacy, 403, "Forbidden", {}, io.BytesIO())
+            self.addCleanup(forbidden.close)
+            svg = self.counter_svg(["#3", "#4", "#other"])
+            with patch.object(view_counter, "urlopen", side_effect=[forbidden, self.profile_html(), svg]):
+                with self.assertRaisesRegex(ValueError, "digit sequence"):
+                    update_profile.update("profile-views", "mxsm", self.now, output)
+            self.assertEqual({p: p.read_bytes() for p in output.iterdir()}, files)
 
     def test_legacy_counter_name_and_read_only_total(self):
         for total in (0, 30003):
