@@ -21,6 +21,10 @@ class ProfileViewsTest(unittest.TestCase):
     legacy = "https://count.getloli.com/get/@:mxsm?theme=gelbooru-h"
     camo = "https://camo.githubusercontent.com/" + "a" * 64 + "/" + legacy.encode().hex()
 
+    def setUp(self):
+        view_counter.original_counter_image.cache_clear()
+        self.addCleanup(view_counter.original_counter_image.cache_clear)
+
     def profile_html(self):
         return io.BytesIO(f'''<article class="markdown-body">
             <img src="https://github.com/mxsm/mxsm/raw/main/resource/generated/profile-views.svg" />
@@ -33,14 +37,22 @@ class ProfileViewsTest(unittest.TestCase):
         return io.BytesIO(f'''<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
             <defs><image id="0" /><image id="3" /><image id="4" /></defs><g>{uses}</g></svg>'''.encode())
 
-    def test_blocked_series_reads_profile_counter_digits_in_order(self):
+    def test_blocked_series_reads_counter_from_pinned_readme_in_digit_order(self):
         forbidden = HTTPError(self.legacy, 403, "Forbidden", {}, io.BytesIO())
         self.addCleanup(forbidden.close)
         svg = self.counter_svg(["#0", "#0", "#3", "#0", "#0", "#3", "#4"])
         with patch.object(view_counter, "urlopen", side_effect=[forbidden, self.profile_html(), svg]) as fetch:
             snapshot = view_counter.fetch_views("mxsm", self.now)
         self.assertEqual((snapshot["count"], snapshot["source"]), (30034, "profile-counter-image"))
-        self.assertEqual([call.args[0] for call in fetch.call_args_list[1:]], ["https://github.com/mxsm", self.camo])
+        readme = fetch.call_args_list[1].args[0]
+        self.assertRegex(readme.full_url, r"^https://api\.github\.com/repos/mxsm/mxsm/readme\?ref=[a-f0-9]{40}$")
+        self.assertEqual(readme.get_header("Accept"), "application/vnd.github.html+json")
+        self.assertEqual(fetch.call_args_list[2].args[0], self.camo)
+
+    def test_other_owner_reads_counter_from_their_current_profile(self):
+        with patch.object(view_counter, "urlopen", side_effect=[self.profile_html(), self.counter_svg(["#4"])]) as fetch:
+            self.assertEqual(view_counter.displayed_total("other"), 4)
+        self.assertEqual([call.args[0] for call in fetch.call_args_list], ["https://github.com/other", self.camo + "-other"])
 
     def test_bad_displayed_digit_preserves_published_counter(self):
         with TemporaryDirectory() as folder:

@@ -50,10 +50,9 @@ I’m a Java and Rust developer living in Foshan and working in Guangzhou. I gra
 </a>
 -->
 
-<!-- The original counter still records image requests. The lion card displays its daily total. -->
 <p align="center">
   <a href="./resource/generated/languages.svg"><img src="./resource/generated/languages.svg" alt="Most used languages by share of code, updated monthly" width="49%" /></a>
-  <a href="./resource/generated/profile-views.svg"><img src="./resource/generated/profile-views.svg" alt="Profile views since July 30, 2023, displayed by Foshan lions on drums and updated daily" width="49%" /></a><img src="https://count.getloli.com/get/@:mxsm?theme=normal-1" alt="" width="1" height="1" />
+  <a href="https://github-readme-stats-mxsm.vercel.app/api/profile-views"><img src="https://github-readme-stats-mxsm.vercel.app/api/profile-views" alt="Live profile views since July 30, 2023, displayed by Foshan lions on drums" width="49%" /></a>
 </p>
 
 [![Weekly contributions on the Pearl River skyline and seven days of contributions on Foshan lion dance poles](./resource/generated/contributions.svg)](./resource/generated/contributions.svg)

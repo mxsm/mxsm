@@ -43,6 +43,8 @@ def read_counter_image(url):
 
 
 def displayed_total(owner):
+    if owner == "mxsm":
+        return read_counter_image(original_counter_image())
     page = f"https://github.com/{quote(owner, safe='')}"
     return read_counter_image(counter_image_url(owner, page))
 
@@ -76,7 +78,7 @@ def fetch_views(owner, now):
         count = series_total(owner)
         source = "counter-api"
     except (URLError, TimeoutError) as error:
-        print(f"Counter API unavailable ({error}). Reading the counter image from the GitHub profile.")
+        print(f"Counter API unavailable ({error}). Reading the published counter image.")
         count = displayed_total(owner)
         source = "profile-counter-image"
     return {"owner": owner, "updated_at": now.isoformat(), "count": count, "source": source}
